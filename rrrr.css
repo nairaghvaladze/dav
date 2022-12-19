@@ -1,0 +1,70 @@
+@font-face{ 
+    font-family: firstfont;
+src: url("atkinson-hyperlegible-bold-102-webfont.woff2");
+}
+@font-face{ 
+    font-family: secondfont;
+src: url("atkinson-hyperlegible-regular-102-webfont.woff2");
+}
+body {background-color: #f3eee4;}
+h3 {font-family: firstfont;
+    padding-left: 25px;
+    margin-bottom: 10px;
+      }
+
+h5 {    color: red;
+    font-family: secondfont;
+padding-left: 25px;
+line-height: 0px;
+margin-top: 1px;
+}
+ span { font-family: secondfont;
+    padding-left: 25px;}   
+.a {background-color: #e5bf55;
+    text-align: center;
+    padding-top: 35px;
+    padding-right: 125px;
+    padding-bottom: 50px;
+    padding-left: 125px;
+    margin-top: 20px;
+    }
+   
+    .button1 {background-color: #1c2334;
+    border-radius: 10px;
+    color: white; 
+    text-align: center;
+     margin: center;
+   
+} 
+     .button3 {background-color: white;
+        border: none;
+        border-radius: 10px;} 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        padding-left: 450px;
+        padding-right: 100px;
+        padding-top: 50px;
+    }
+    li {    background-color: #f3eee4 ;
+            float: left;
+          }
+          
+    li a {
+            display: block;
+            padding: 8px;
+            
+          }
+  
+            
+     .p  { display: flex;
+           align-items: center;
+           justify-content: space-between;
+        margin-bottom: 15px;}
+    
+           img { height: 70px;
+            width: 150px;
+           padding-left: 305px;
+            }
